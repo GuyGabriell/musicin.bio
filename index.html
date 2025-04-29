@@ -11,9 +11,9 @@
   <body>
     <!--header-section-->
     <header>
-      <nav class="bg-[#FFFFFF] h-[102px] text-black w-full">
+      <nav class="bg-[#FFFFFF] h-[102px] text-black w-full font-Outfit md:font-Outfit">
         <div
-          class="flex items-center justify-between w-full md:max-w-[1512px] h-full mx-auto px-6 md:px-24"
+          class="flex items-center justify-between w-full md:max-w-[1512px] h-full mx-auto px-6 md:px-24 font-Outfit md:font-Outfit"
         >
           <!--mobile logo-->
           <div class="flex items-center space-x-1 md:hidden">
@@ -112,11 +112,11 @@
 
     <!--main-section-->
     <main>
-      <section class="bg-[#004E42] w-full relative overflow-hidden mb-24">
+      <section class="bg-[#004E42] w-full relative overflow-hidden mb-24 font-Outfit md:font-Outfit">
         <!-- Patterns on desktop -->
         <div>
           <img
-            class="absolute right-0 top-0  hidden md:block z-0"
+            class="absolute right-0 top-0 hidden md:block z-0 md:max-w-[755px] md:min-h-[886px] md:pl-8"
             src="/src/patterns/patterns.svg"
             alt=""
           />
@@ -131,15 +131,15 @@
 
         <div class="w-full mb-36 md:max-w-[1512px] mx-auto px-6 md:px-24">
           <!-- Main content with Grid -->
-          <div class="grid grid-cols-1 md:grid-cols-6 gap-">
-            <div class="col-span-6 mt-15 mb-70 md:mt-45 relative z-10">
+          <div class="grid grid-cols-1 md:grid-cols-7 md:gap-4">
+            <div class="col-span-7 mt-15 mb-70 md:mb-45 md:mt-45 relative z-10">
               <!-- Subtext -->
               <div class="md:max-w-[812px] font-Outfit text-white">
-                <h1 class="text-3xl font-extrabold md:text-6xl mb-6">
+                <h1 class="text-3xl font-extrabold md:text-7xl mb-6">
                   Share your music with <br />no borders,musicin.bio
                 </h1>
                 <div>
-                  <p class="mb-6 text-base font-Outfit md:text-1xl">
+                  <p class="mb-6 text-base font-Outfit md:text-2xl">
                     Join 35M+ people using musicin.bio for their link in bio.
                     One link to help you <br />share everything you create,
                     curate and sell from your Instagram, TikTok,<br />
@@ -149,7 +149,7 @@
 
                 <!-- Form section -->
                 <div
-                  class="md:w-[592px] flex flex-col md:flex-row gap-2 md:gap-4"
+                  class="md:w-[783px] flex flex-col md:flex-row gap-2 md:gap-4"
                 >
                   <div class="flex-grow">
                     <div
@@ -179,7 +179,7 @@
         </div>
       </section>
 
-      <div class="relative z-10 w-full md:max-w-[1512px] mx-auto px-6 md:px-24">
+      <section class="relative z-10 w-full md:max-w-[1512px] mx-auto px-6 md:px-24 font-Outfit md:font-Outfit">
         <div class="grid gap- md:grid-cols-12 gap-8">
           <!--musicin.bio left side -->
           <div class="col-span-1 md:col-span-4">
@@ -368,16 +368,16 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <section
-        class="absolute -mt-10 bg-[#F4EDD0] w-full relative overflow-hidden"
-      >
+      <section class="absolute -mt-10 bg-[#F4EDD0] w-full relative overflow-hidden font-Outfit md:font-Outfit">
         <div class="w-full md:max-w-[1512px] mx-auto px-6 md:px-24">
           <div class="grid md:grid-cols-12 md:gap-24">
             <div class="w-full col-span-1 mt-24 md:col-span-6 md:my-70">
               <div class="">
-                <div class="text-[#FF4800] font-Outfit md:text-5xl text-[36px] font-extrabold">
+                <div
+                  class="text-[#FF4800] font-Outfit md:text-5xl text-[36px] font-extrabold"
+                >
                   <h2>
                     Share your musicin.bio from your Instagram, TikTok, Twitter
                     and other apps
@@ -402,22 +402,29 @@
             <div class="w-full col-span-1 md:col-span-6 my-36">
               <div class="relative h-[680px] w-full">
                 <img
+                  src="src/channels/tiktok.png"
+                  alt=""
+                  class="absolute z-50 -top-8 left-22 md:left-35 w-12 h-12"
+                />
+                <img
                   src="src/images/papa.png"
                   alt="Top Image"
-                  class="absolute top-0 left-0 object-cover shrink-0 w-[215px] md:w-[325px] h-[380px] rounded-md"
+                  class="absolute top-0 left-0 object-cover shrink-0 w-[215px] md:w-[325px] h-[380px] rounded-md z-0"
                 />
+
                 <img
                   src="src/images/papa-1.png"
                   alt="Bottom Image"
-                  class="absolute bottom-5 right-0 object-cover shrink-0 w-[215px] md:w-[325px] h-[380px] rounded-md"
+                  class="absolute bottom-5 right-0 object-cover shrink- w-[215px] md:w-[325px] h-[380px] rounded-md z-0"
                 />
+                <img src="src/channels/insta.png" alt="" class="absolute z-50 bottom-95 right-18 md:right-37 w-12 h-12">
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="bg-[#FF4800] py-[200px] w-full">
+      <section class="bg-[#FF4800] py-[200px] w-full font-Outfit md:font-Outfit">
         <div class="w-full md:max-w-[1512px] mx-auto px-6 md:px-35">
           <div class="grid grid-cols-1 gap-24 md:grid-cols-12 md:gap-24">
             <div class="col-span-1 md:col-span-5">
@@ -469,7 +476,7 @@
         </div>
       </section>
 
-      <section class="bg-[#004E42] py-[200px] w-full">
+      <section class="bg-[#004E42] py-[200px] w-full font-Outfit md:font-Outfit">
         <div class="w-full md:max-w-[1512px] mx-auto px-6 md:px-24">
           <div class="flex justify-between items-center">
             <div class="mt-20 md:mt-8">
@@ -501,7 +508,7 @@
               >
                 <h1>
                   “musicin.bio has helped me reach a global audience of 1m+ fans
-                   that love my music”
+                  that love my music”
                 </h1>
               </div>
               <div class="flex flex-col mt-10 items-center">
@@ -544,7 +551,7 @@
         </div>
       </section>
 
-      <section class="bg-[#D7FF7F] w-full py-24 md:p-[120px]">
+      <section class="bg-[#D7FF7F] w-full py-24 md:p-[120px] font-Outfit md:font-Outfit">
         <div class="w-full md:max-w-[1512px] mx-auto px-6 md:px-24 space-y-3">
           <h1
             class="text-4xl text-[#000000] font-bold md:text-[56px] font-Outfit whitespace-[28px] text-center mb-9"
@@ -764,7 +771,7 @@
         </div>
       </section>
 
-      <section class="relative w-full overflow-hidden">
+      <section class="relative w-full overflow-hidden font-Outfit md:font-Outfit">
         <div class="">
           <div>
             <img
@@ -780,9 +787,11 @@
           </div>
           <div class="absolute inset-0 flex items-center justify-center px-6">
             <div
-              class="bg-white min-w-[342px] md:p-[120px] md:max-w-[794px] mx-auto px-6 py-20 md:px-24 rounded-sm"
+              class="bg-white border-1 border-[#F4EDD0] min-w-[342px] md:p-[110px] md:max-w-[794px] mx-auto px-6 py-20 md:px-24 rounded-sm"
             >
-              <h2 class="text-lg md:text-[32px] text-[24px] font-Outfit font-semibold mb-9">
+              <h2
+                class="text-lg md:text-[32px] text-[24px] md:max-w-[536px] font-Outfit font-semibold mb-9"
+              >
                 Stay updated about our new tools and products, that will help
                 you reach a wider audience.
               </h2>
@@ -793,7 +802,7 @@
               >
                 <div class="flex-grow">
                   <div
-                    class="w-full border border-black rounded-md p-2 bg-transparent flex items-center"
+                    class="w-full border border-[#6B7280] rounded-md p-3 bg-transparent flex items-center"
                   >
                     <span class="mr-2 text-sm md:text-base"
                       ><svg
@@ -820,9 +829,9 @@
                 </div>
                 <div class="bg-[#004E42] md:mt-0 rounded-md">
                   <button
-                    class="w-full md:w-auto text-white px-4 md:px-6 py-3 font-medium text-sm md:text-base"
+                    class="w-full md:w-[135px] text-white px-4 md:px-6 py-3 font-medium text-sm md:text-base"
                   >
-                   <a href="#"> Subscribe</a>
+                    <a href="#"> Subscribe</a>
                   </button>
                 </div>
               </div>
@@ -834,9 +843,7 @@
 
     <!--footer-section-->
     <footer>
-      <section
-        class="bg-[#021C18] py-24 text-white p-6 md:pt-[55px] md:px-[165px] md:p-10"
-      >
+      <section class="bg-[#021C18] py-24 text-white p-6 md:pt-[55px] md:px-[165px] md:p-10 font-Outfit md:font-Outfit">
         <div
           class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-start space-y-10 md:space-y-0"
         >

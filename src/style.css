@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
 @import url('https://fonts.cdnfonts.com/css/outfit');
 @import "tailwindcss";
 
@@ -6,6 +8,8 @@
 @theme {
   
  --font-Outfit: "Outfit", "sans-serif";
+ --font-SourceSansPro: "Source Sans Pro", "sans-serif";
+ --font-Inter: "Inter", "sans-serif";
                                                                                               
 }
 
